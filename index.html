@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="top">
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </section>
+
+        <section class="middle">
+            <button id="wash-car">Wash Car: $10</button>
+
+            <button id="mow-lawn">Mow Lawn: $20</button>
+
+            <button id="pull-weeds">Pull Weeds: $30</button>
+        </section>
+
+        <section class="task">
+            <div class="tt">
+                <p>TASK</p> <p>TOTAL</p>
+            </div>
+            
+            <div id="task-list"> 
+                <div id="wash"></div>
+                <div id="mow"></div>
+                <div id="pull"></div>
+            </div>
+             </section>
+
+        <section class="bottom">
+            <div class="notes">
+                <p>NOTES</p>
+                <p id="notes"> </p>
+            </div>
+            <div class="total-amount">
+                <p>TOTAL AMOUNT</p>
+                <div id="total-calc"></div>
+            </div>
+        </section>
+        <section class="footer">
+            <button id="send"> <img src="/images/Icon (2).png" alt="">Send invoice</button>
+        </section>
+    </main>
+    
+</body>
+<script src="index.js"></script>
+</html>
